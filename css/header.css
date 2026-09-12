@@ -46,6 +46,7 @@
 }
 .header-active {
   position: relative;
+  color: #404bbf;
 }
 .header-active::after {
   content: '';
