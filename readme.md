@@ -1,78 +1,44 @@
-# Web Studio
+# WebStudio — GoIT Markup Homework 04
 
-Homework project #2 for the GoIT Fullstack course.
+Навчальний проєкт, виконаний у межах курсу **GoIT Fullstack**.
 
-The project implements the semantic HTML markup and CSS styling of the
-**Web Studio** landing page based on the provided Figma design.
+## 🔗 Посилання
 
-## Links
+- **Live page:** https://ivanduik.github.io/goit-markup-hw-04/
+- **Repository:** https://github.com/Ivanduik/goit-markup-hw-04
 
-- **GitHub Repository:** https://github.com/Ivanduik/goit-markup-hw-02
-- **Live Page:** https://ivanduik.github.io/goit-markup-hw-02/
-- **Figma Design:** https://www.figma.com/design/folOvI69KUmwYN47Njpr0O/Web-Studio--Version-5.1-?node-id=296708-626&p=f
-
-## Project Description
-
-The page includes the following sections:
-
-- Header
-- Hero
-- Our Features
-- Our Team
-- Our Portfolio
-- Footer
-
-Homework #2 adds typography, colors, backgrounds, interactive states, and
-section-specific styles to the semantic markup created in Homework #1.
-
-## Technologies
+## 🛠 Технології
 
 - HTML5
 - CSS3
-- Modern Normalize
-- Google Fonts (Roboto and Raleway)
-- Git and GitHub
-- GitHub Pages
-- Prettier
+- Flexbox
+- SVG sprite
+- CSS transitions
+- CSS transforms
 
-## Project Structure
+## ✅ Реалізовано
 
-```text
-goit-markup-hw-02/
-├── css/
-│   ├── common.css
-│   ├── features.css
-│   ├── footer.css
-│   ├── header.css
-│   ├── hero.css
-│   ├── main.css
-│   ├── portfolio.css
-│   └── team.css
-├── images/
-│   ├── icons/
-│   ├── portfolio/
-│   └── team/
-├── .gitignore
-├── .prettierrc
-├── index.html
-└── README.md
-```
+- семантична HTML-розмітка;
+- секції Header, Hero, Features, Team, Portfolio та Footer;
+- фонове зображення Hero з градієнтом;
+- SVG-іконки через один спрайт `icons.svg`;
+- декоративні іконки в секції Features;
+- соціальні мережі в Team та Footer;
+- hover/focus ефекти з плавними переходами;
+- активний пункт навігації через псевдоелемент `::after`;
+- постійна тінь карток Team;
+- тінь карток Portfolio при наведенні;
+- анімований overlay у картках Portfolio;
+- стилізація відповідно до макета Figma.
 
-## Features
+## 📁 Структура стилів
 
-- Semantic HTML5 structure
-- Modular CSS organized by page section
-- Shared typography styles in `common.css`
-- Anchor navigation between page sections
-- Hover and focus states for interactive elements
-- Functional email link using `mailto:`
-- Functional phone link using `tel:`
-- Images with `alt`, `width`, and `height` attributes
-- Code formatted with Prettier
-- Published using GitHub Pages
+CSS розділений на окремі файли за секціями сторінки та підключений через `main.css`.
 
-## Author
+## 🎨 Макет
 
-**Victor Ivanduik**
+Верстка виконана за макетом **Web Studio Version 5.1** у Figma.
 
-GitHub: https://github.com/Ivanduik
+---
+
+Homework 04 — GoIT
