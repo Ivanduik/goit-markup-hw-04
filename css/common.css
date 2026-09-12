@@ -7,6 +7,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3,
