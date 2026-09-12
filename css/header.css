@@ -1,0 +1,44 @@
+.header {
+  color: #2e2f42;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  color: #2e2f42;
+  padding: 24px 0;
+  margin: 0 76px 0 0;
+}
+.header-nav {
+  font-weight: 500;
+  margin-right: auto;
+}
+.header-nav-list {
+  display: flex;
+
+  gap: 40px;
+}
+.header-nav-list-item-link {
+  display: block;
+  padding: 24px 0;
+}
+.header-address {
+  font-style: normal;
+  color: #434455;
+}
+.header-address-list {
+  display: flex;
+  gap: 40px;
+}
+.header-address-list-item-link {
+  display: block;
+  padding: 24px 0;
+}
+.header-nav-list-item-link:hover,
+.header-nav-list-item-link:focus,
+.header-address-list-item-link:hover,
+.header-address-list-item-link:focus {
+  color: #404bbf;
+}
